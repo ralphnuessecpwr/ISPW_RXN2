@@ -1,0 +1,36 @@
+!!com.compuware.ispw.cli.model.IspwRoot
+ispwApplication:
+  application: RXN2
+  host: cwcc.compuware.com
+  pathMappings:
+  - path: \AMAC
+    types:
+    - fileExtension: amac
+      ispwType: AMAC
+  - path: \C
+    types:
+    - fileExtension: c
+      ispwType: C
+  - path: \CLST
+    types:
+    - fileExtension: clst
+      ispwType: CLST
+  - path: \COB
+    types:
+    - fileExtension: cbl
+      ispwType: COB
+  - path: \H
+    types:
+    - fileExtension: h
+      ispwType: H
+  - path: \COPY
+    types:
+    - fileExtension: cpy
+      ispwType: DCL
+  - path: \ASM
+    types:
+    - fileExtension: asm
+      ispwType: PWS
+  port: 16196
+  runtimeConfig: ISPW
+  stream: FTSDEMO
